@@ -100,8 +100,12 @@ body, html{
 
 
 .content{
-  margin: 5% 35%;
+  margin: 8% 35%;
   width: 456px;
+  padding: 20px;
+  box-shadow: inset -6px -6px 13px #fff, inset 6px 6px 13px rgba(0,0,0,0.16);
+  background-color: #ecf0f3;
+  border-radius: 20px 0 20px 0;
 } 
 
 .content h1 {
@@ -109,8 +113,12 @@ body, html{
   font-family: 'Times New Roman', Times, serif;
 }
 
-p a{
-  margin-bottom: 45px;
+.content p {
+  margin-bottom: 25px;
+}
+
+.content p a{
+  margin-left: 40%;
   color: black;
   font-size: 15px;
   font-weight: bold;
@@ -120,3 +128,7 @@ p a{
   box-shadow: inset 2px 2px 13px #fff , 2px 2px 13px rgba(0,0,0,0.16);
   background: linear-gradient( to right, rgba(252, 253, 254, 0.9), rgba(68, 78, 86, 0.3))
 }
+p a:hover{
+  background: linear-gradient( to left, rgba(252, 253, 254, 0.9), rgba(68, 78, 86, 0.3))
+}
+
