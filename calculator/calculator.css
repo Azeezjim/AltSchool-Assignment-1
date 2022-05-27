@@ -1,10 +1,113 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  font-family: sans-serif;
+  background-color: #ecf0f3;
+  text-decoration: none;
+}
+body, html{
+  height: 100%;
+  margin: 0;
+}
+/* body { */
+  /* background: linear-gradient( to right, rgba(252, 253, 254, 0.9), rgba(241, 244, 246, 0.854)), url(./assets/background.jpg);
+  background-size: cover; */
+/* } */
+
+.navbar{
+  box-shadow: inset 6px 6px 13px #fff , 6px 6px 13px rgba(0,0,0,0.16);
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+}
+.nav1{
+  display: flex;
+  text-align: left;
+  align-items: center;
+}
+
+.nav1 a h2{
+  text-decoration: none;
+  margin-right: 40px;
+  font-size: 20px;
+  margin-left: 10px;
+  color: black;
+}
+
+.nav1 li{
+  display: flex;
+  margin: 0 15px;
+}
+.nav1 li a {
+  color: black;
+  font-size: 12px;
+  color: black;
+  font-size: 10px;
+  width: 60px;
+  font-weight: bold;
+  padding: 5px 0;
+  text-align: center;
+  border-radius: 15px 0 15px 0;
+  box-shadow: inset 2px 2px 13px #fff , 2px 2px 13px rgba(0,0,0,0.16);
+  background: linear-gradient( to right, rgba(252, 253, 254, 0.9), rgba(68, 78, 86, 0.3))
+}
+.nav1 li a:hover{
+  background: linear-gradient( to left, rgba(252, 253, 254, 0.9), rgba(68, 78, 86, 0.3))
+}
+
+.nav1 .ul1{
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.nav2{
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.nav2 li{    
+  display: flex;
+  list-style: none;
+  margin: 0 15px;
+  vertical-align:text-bottom;
+}
+.nav2 li a {
+  color: black;
+  font-size: 10px;
+  width: 60px;
+  font-weight: bold;
+  padding: 5px 0;
+  text-align: center;
+  border-radius: 15px 0 15px 0;
+  box-shadow: inset 2px 2px 13px #fff , 2px 2px 13px rgba(0,0,0,0.16);
+  background: linear-gradient( to right, rgba(252, 253, 254, 0.9), rgba(68, 78, 86, 0.3))
+}
+
+.nav2 li a:hover{
+  background: linear-gradient( to left, rgba(252, 253, 254, 0.9), rgba(68, 78, 86, 0.3))
+}
+  
+
+.nav2 ul{
+  color: black;
+  display: flex;
+  flex-direction: row;
+}
+
+
 h1{
+  margin-top: 20px;
+  font-size: 30px;
   text-align: center;
   margin:30px 0;
   color:#434a54;
 }
 .container{
-  
+  margin: 3% 35%;
   width: 25%;
   padding: 20px;
   box-shadow: inset -6px -6px 13px #fff, inset 6px 6px 13px rgba(0,0,0,0.16);
@@ -15,14 +118,14 @@ h1{
 input{
   /* grid-column: span 4; */
   height: 30px;
-  width: 85%; 
+  width: 100%; 
   box-shadow: inset -6px -6px 13px #fff, inset 6px 6px 13px rgba(0,0,0,0.16);
   background-color: #ecf0f3;
   border: none;
   border-radius: 15px;
   color: #333;
   /* text-align: end; */
-  /* margin: 40px 0px 30px 0px; */
+  margin: 4px;
   padding: 20px;
   font-size: 40px;
 

@@ -115,6 +115,29 @@ body, html{
   padding: 20px;
 }
 
+.aboutme p {
+  margin: 10px 0;
+  font-size: 14px;
+}
+
 .aboutme h1{
   text-align: center;
+  
+}
+
+.claculator { 
+  width: 45%;
+  padding: 20px;
+  box-shadow: inset -6px -6px 13px #fff, inset 6px 6px 13px rgba(0,0,0,0.16);
+  background-color: #ecf0f3;
+  border-radius: 20px 0 20px 0;
+  padding: 35px 15px;
+
+}
+
+.content {
+  margin-top: 10px;
+  line-height: 2rem;
+  list-style: lower-roman;
+  font-style: 14px;
 }
