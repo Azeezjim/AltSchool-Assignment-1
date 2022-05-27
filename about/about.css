@@ -3,7 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   outline: none;
-  font-family: sans-serif;
+  font-family: 'Times New Roman', Times, serif;
   background-color: #ecf0f3;
   text-decoration: none;
 }
@@ -96,4 +96,25 @@ body, html{
   color: black;
   display: flex;
   flex-direction: row;
+}
+
+.about {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5% 7%;
+  padding: 0 20px;
+}
+
+.aboutme {
+  width: 45%;
+  padding: 20px;
+  box-shadow: inset -6px -6px 13px #fff, inset 6px 6px 13px rgba(0,0,0,0.16);
+  background-color: #ecf0f3;
+  border-radius: 20px 0 20px 0;
+  padding: 20px;
+}
+
+.aboutme h1{
+  text-align: center;
 }
